@@ -15,7 +15,7 @@
   <!-- 
     - favicon
   -->
-  <link rel="shortcut icon" href="./assets/images/r.svg" type="image/svg+xml">
+  <link rel="shortcut icon" href="./assets/images/c.png" type="image/svg+xml">
 
   <!-- 
     - google font link
@@ -28,12 +28,6 @@
     - custom css link
   -->
   <link rel="stylesheet" href="./assets/css/style.css">
-
-  <!-- 
-    - preload images
-  -->
-  <link rel="preload" as="image" href="./assets/images/hero-banner.jpg">
-  <link rel="preload" as="image" href="./assets/images/Blog.svg">
 
   <meta name='viewport' content='width=device-width, initial-scale=1'>
   <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
@@ -92,8 +86,6 @@
 
         <div class="wrapper">
           <a href="mailto:chaitanyadeshpande2k@gmail.com" class="contact-link">chaitanyadeshpande2k@gmail.com</a>
-
-          <!-- <a href="tel:7659133076" class="contact-link">(765) 913 3076</a> -->
         </div>
 
         <ul class="social-list">
@@ -109,24 +101,11 @@
               <ion-icon name="logo-github"></ion-icon>
             </a>
           </li>
-
-          <!-- <li>
-            <a href="mailto:chaitanyadeshpande2k@gmail.com" class="social-link" target="_blank">
+          <li>
+            <a href="mailto:chaitanyadeshpande2k@gmail.com" class="social-link">
               <ion-icon name="mail"></ion-icon>
             </a>
-          </li> -->
-
-          <!-- <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-instagram"></ion-icon>
-            </a>
           </li>
-
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-youtube"></ion-icon>
-            </a>
-          </li> -->
 
         </ul>
 
@@ -164,30 +143,20 @@
             </h1>
 
             <p class="section-text" data-reveal="top" data-reveal-delay="0.75s">
-              <!-- My journey in tech is driven by 
-              a desire to create efficient software solutions and innovate through code.  -->
-              <!-- Here, you'll find my portfolio 
-              showcasing projects that blend technical skills with practical applications, insights from my adventures in tech, 
-              and the latest updates on my professional endeavors.  -->
               Whether you're a fellow developer, a potential collaborator, 
               or just curious, I'm glad you're here. Let's connect!
 
             </p>
 
             <div class="btn-wrapper" data-reveal="top" data-reveal-delay="1s">
-              <!-- <a href="#" class="btn btn-primary">Resume</a> -->
-
               <a href="#contact" class="btn btn-primary">Contact Me</a>
             </div>
 
           </div>
 
           <figure class="hero-banner">
-            <img src="chaitanya.jpeg" width="560" height="540" alt="Chaitanya" class="w-100"
+            <img src="./assets/images/chaitanya.jpeg" width="560" height="540" alt="Chaitanya" class="w-100"
               data-reveal="top">
-
-            <!-- <img src="./assets/images/hero-shape.svg" width="203" height="91" alt="250+ Projects Done" class="shape" -->
-              <!-- data-reveal="top" data-reveal-delay="0.25s"> -->
           </figure>
 
         </div>
@@ -210,8 +179,8 @@
               <h2 class="h2 section-title">Skills</h2>
 
               <p class="section-text">
-                I'm a graduate Computer Science student from University of Illinois at Urbana-Champaign,
-                passionate about full-stack web development.
+                I am a graduate student in Computer Science at the University of Illinois at Urbana-Champaign, 
+                with a strong passion for full-stack web development.
               </p>
             </div>
 
@@ -290,38 +259,119 @@
 
           </div>
           
-          <div>
-            <h2 id="experience" class="h2 section-title" style="margin: 8vw 0 4vw;">Latest Project</h2>
+          <h2 id="experience" class="h2 section-title" style="margin: 8vw 0 4vw;">Projects</h2>
           <ul class="grid-list">
 
             <li data-reveal="bottom" data-reveal-delay="0.25s">
               <div class="about-card">
 
                 <div class="card-icon">
-                  <img src="./assets/images/icons8-full-stack-64.png" width="52" height="52" loading="lazy" alt="mobile design icon">
+                  <img src="./assets/images/tryon.png" width="52" height="52" loading="lazy" alt="Virtual Try-On">
                 </div>
 
-                <h2 class="h4 card-title">Full Stack Website</h2>
-                <h4 style="margin-bottom: 1vw;">Rancho Labs</h4>
+                <h2 class="h4 card-title">Virtual Try-On</h2>
 
                 <p class="card-text">
                   <ul style="text-align: left;">
                     <li style="list-style: unset">
-                      Developed a comprehensive online course platform using the MERN stack.
-                  Focused on integrating essential features including email notifications and online payments, and ensuring resposnive UI design and robust backend interactions.
+                      Developed a web application replicating a virtual trial room, where users can upload their image along with the garment they
+wish to try, then the application generates a virtual preview, allowing users to visualize themselves wearing that garment
                     </li>
-                    <!-- <li style="list-style: unset">
-                      This role provided a deep dive into full-stack development, emphasizing the importance of user-friendly design and efficient data management. It also highlighted the significance of iterative testing and feedback 
-                      in creating effective software solutions.
-                    </li> -->
                   </ul>
                 </p>
 
               </div>
             </li>
+
+            <li data-reveal="bottom">
+              <div class="about-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/image.png" width="52" height="52" loading="lazy" alt="Image Restoration Using Inpainting">
+                </div>
+
+                <h2 class="h4 card-title">Image Restoration Using Inpainting</h2>
+
+                <p class="card-text">
+                  <ul style="text-align: left;">
+                    <li style="list-style: unset">
+                      Engineered an image restoration project allowing users to restore damaged, torn, and degraded photographs.
+                    </li>
+                    <li>
+                      Enhanced image restoration with the help of the Inpainting method to eliminate noise and strokes from photographs by
+substituting unwanted marks with neighboring pixels, creating a seamless visual integration within the surrounding context
+                    </li>
+                  </ul>
+                  
+                </p>
+
+              </div>
+              <a href="https://github.com/CDChaitanya/Image_Restoration" class="btn-text" style="color: #a07cc5">
+                <span class="span">See Project</span>
+
+                <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+              </a>
+            </li>
+            
+
+            <li data-reveal="bottom" data-reveal-delay="0.25s">
+              <div class="about-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/bus-stop.png" width="52" height="52" loading="lazy" alt="BookIt">
+                </div>
+
+                <h2 class="h4 card-title">BookIt</h2>
+
+                <p class="card-text">
+                  <ul style="text-align: left;">
+                    <li style="list-style: unset">
+                      Developed a comprehensive application for Pune City’s bus transport system that facilitates user registration, profile
+                      management, and ticket bookings for specified dates and times.
+                    </li> 
+                  </ul>
+                </p>
+
+              </div>
+              <a href="https://github.com/CDChaitanya/BookIt" class="btn-text" style="color: #a07cc5">
+                <span class="span">See Project</span>
+
+                <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+              </a>
+            </li>
+
+            <li data-reveal="bottom" data-reveal-delay="0.25s">
+              <div class="about-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/team.png" width="52" height="52" loading="lazy" alt="ConnectTeam">
+                </div>
+
+                <h2 class="h4 card-title">Connect Team</h2>
+
+                <p class="card-text">
+                  <ul style="text-align: left;">
+                    <li style="list-style: unset">
+                      It’s an Employee Management System app. In the app, the admin has functionalities like adding a new employee, updating employee’s data, deleting an employee, displaying complete data of an employee, filtering employees based on desired criteria
+                    </li>
+                  </ul>
+                </p>
+
+              </div>
+              <a href="https://github.com/CDChaitanya/ConnectTeam" class="btn-text" style="color: #a07cc5">
+                <span class="span">See Project</span>
+
+                <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+              </a>
+            </li>
+
           </ul>
 
           </div>
+
+          
+        </div>
+      </section>
 
           
         </div>
@@ -358,6 +408,7 @@
               <div class="project-card project-card-1" style="background-color: #f1f5fd">
 
                 <div class="card-content" data-reveal="right">
+                  <p class="card-tag" style="color: #a07cc5">Software Development Engineer</p>
 
                   <h3 class="h3 card-title">Barclays</h3>
 
@@ -375,7 +426,7 @@
                 </div>
 
                 <figure class="card-banner" data-reveal="left">
-                  <img src="barclays-logo.jpg" width="600" height="200" loading="lazy" alt="Web Design"
+                  <img src="./assets/images/barclays-logo.jpg" width="600" height="200" loading="lazy" alt="Barclays"
                     class="w-100">
                 </figure>
 
@@ -402,7 +453,7 @@
             <div class="contact-content" data-reveal="left">
 
               <div class="card-icon">
-                <img src="./assets/images/icon-5.svg" width="44" height="44" loading="lazy" alt="envelop icon">
+                <img src="./assets/images/envelop.svg" width="44" height="44" loading="lazy" alt="envelop icon">
               </div>
 
               <h2 class="h2 section-title">Feel free to reach out!</h2>
@@ -442,7 +493,7 @@
     <div class="container">
 
       <p class="copyright">
-        <!-- © 2022 codewithsadee. All rights reserved. -->
+        © 2024 CDChaitanya. All rights reserved.
       </p>
 
       <ul class="social-list">
@@ -459,23 +510,11 @@
           </a>
         </li>
 
-        <!-- <li>
+        <li>
           <a href="mailto:chaitanyadeshpande2k@gmail.com" class="social-link">
             <ion-icon name="mail"></ion-icon>
           </a>
-        </li> -->
-
-        <!-- <li>
-          <a href="#" class="social-link">
-            <ion-icon name="logo-instagram"></ion-icon>
-          </a>
         </li>
-
-        <li>
-          <a href="#" class="social-link">
-            <ion-icon name="logo-youtube"></ion-icon>
-          </a>
-        </li> -->
 
       </ul>
 
